@@ -1,0 +1,26 @@
+{
+  "name": "hop-dml",
+  "version": "0.0.1",
+  "description": "decentralise machine learning protocol",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/healthscience/hop-dml.git"
+  },
+  "keywords": [
+    "machine",
+    "learning",
+    "decentralised"
+  ],
+  "author": "@aboynejames",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/healthscience/hop-dml/issues"
+  },
+  "homepage": "https://github.com/healthscience/hop-dml#readme"
+}
