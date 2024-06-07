@@ -5,7 +5,7 @@
 *
 * @class HopDml
 * @package    dml
-* @copyright  Copyright (c) 2023 James Littlejohn
+* @copyright  Copyright (c) 2024 James Littlejohn
 * @license    http://www.gnu.org/licenses/old-licenses/gpl-3.0.html
 * @version    $Id$
 */
@@ -13,8 +13,9 @@ import EventEmitter from 'events'
 
 class HopDml extends EventEmitter {
 
-  constructor() {
+  constructor(library) {
     super()
+    this.library = library
   }
 
   /**
@@ -22,8 +23,13 @@ class HopDml extends EventEmitter {
   * @method powEvidence
   *
   */
-  powEvidence = function () {
-    
+  powEvidence = function (context) {
+    console.log('build proof of work for this model and NXP')
+    // console.log(this.library)
+    // next match peer NXP to source genesis nxp contract
+    // hash of proof of work
+    // form message
+    // send to specific peer  (stage two broadcast)
   }
 
 }
