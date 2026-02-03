@@ -1,6 +1,6 @@
 {
   "name": "hop-dml",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "decentralise machine learning protocol",
   "main": "src/index.js",
   "type": "module",
