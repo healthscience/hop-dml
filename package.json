@@ -19,6 +19,12 @@
   ],
   "author": "@aboynejames",
   "license": "ISC",
+  "dependencies": {
+    "hop-crypto": "file:../hop-crypto",
+    "hyperswarm": "^4.7.0",
+    "hyperbee": "^2.1.0",
+    "sodium-native": "^4.0.0"
+  },
   "bugs": {
     "url": "https://github.com/healthscience/hop-dml/issues"
   },
